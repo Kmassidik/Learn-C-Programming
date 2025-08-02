@@ -1,5 +1,4 @@
 # Ignore compiled executables
-hello
 *.out
 *.o
 *.exe
@@ -10,5 +9,5 @@ hello
 # Ignore VS Code settings (optional)
 .vscode/
 
-# Ignore build directory (if you use one)
+# Ignore build directory
 build/
