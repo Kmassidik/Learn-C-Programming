@@ -6,9 +6,9 @@
 [x] 1-3: Modify the temperature conversion program to print a heading above the table.  
 [x] 1-4: Write a program to print the Celsius to Fahrenheit table.  
 [x] 1-5: Modify the temperature program to print the table in reverse order.  
-[ ] 1-6: Verify that the expression getchar() != EOF is 0 or 1.  
-[ ] 1-7: Write a program to print the value of EOF.  
-[ ] 1-8: Write a program to count blanks, tabs, and newlines.  
+[x] 1-6: Verify that the expression getchar() != EOF is 0 or 1.  
+[x] 1-7: Write a program to print the value of EOF.  
+[x] 1-8: Write a program to count blanks, tabs, and newlines.  
 [ ] 1-9: Replace strings of blanks with a single blank.  
 [ ] 1-10: Make tabs, backspaces, and backslashes visible.  
 [ ] 1-11: Devise good test cases for the word count program.  
