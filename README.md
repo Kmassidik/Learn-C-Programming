@@ -12,7 +12,7 @@
 [x] 1-9: Replace strings of blanks with a single blank.  
 [x] 1-10: Make tabs, backspaces, and backslashes visible.  
 [x] 1-11: Devise good test cases for the word count program.  
-[ ] 1-12: Print input one word per line.  
+[x] 1-12: Print input one word per line.  
 [ ] 1-13: Print a histogram of word lengths.  
 [ ] 1-14: Print a histogram of character frequencies.  
 [ ] 1-15: Rewrite temperature conversion using a function.  
