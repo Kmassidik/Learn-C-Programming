@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAXLINE 100 // Use a moderate limit for the buffer
+#define MAXLINE 100 
 
 int my_getline(char destination_array[], int limit);
 void copy(char to_array[], char from_array[]);
@@ -79,3 +79,16 @@ void copy(char to_array[], char from_array[])
     while ((to_array[index_counter] = from_array[index_counter]) != '\0')
         ++index_counter;
 }
+
+/* 
+Because getchar() returns an int, not a char. Specifically:
+It returns any valid character as an int, but also:
+It needs to return EOF, which is typically -1.
+EOF is outside the range of char, so if you use char, you might not detect end-of-file correctly.
+char line[100]; hold up to 100 characters.
+
+mportant note:
+Even though it's 100 characters, if you're storing a string, 
+you need to leave room for the null terminator '\0', 
+which marks the end of the string. So you can safely store up to 99 visible characters.
+ */
