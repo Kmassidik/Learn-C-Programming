@@ -1,6 +1,7 @@
 # 📝 The C Programming Language (K&R 2nd Edition) — Exercise Checklist
 
 ## 📘 Chapter 1: A Tutorial Introduction (24 Exercises)
+
 [x] 1-1: Run "hello world"; experiment with leaving out parts to observe errors.  
 [x] 1-2: Experiment to find out what happens when printf's argument string contains \c.  
 [x] 1-3: Modify the temperature conversion program to print a heading above the table.  
@@ -13,10 +14,10 @@
 [x] 1-10: Make tabs, backspaces, and backslashes visible.  
 [x] 1-11: Devise good test cases for the word count program.  
 [x] 1-12: Print input one word per line.  
-[ ] 1-13: Print a histogram of word lengths.  
-[ ] 1-14: Print a histogram of character frequencies.  
-[ ] 1-15: Rewrite temperature conversion using a function.  
-[ ] 1-16: Fix longest-line program to handle arbitrarily long lines.  
+[x] 1-13: Print a histogram of word lengths.  
+[x] 1-14: Print a histogram of character frequencies.  
+[x] 1-15: Rewrite temperature conversion using a function.  
+[x] 1-16: Fix longest-line program to handle arbitrarily long lines.  
 [ ] 1-17: Print all input lines longer than 80 characters.  
 [ ] 1-18: Remove trailing blanks/tabs and delete blank lines.  
 [ ] 1-19: reverse(s): reverse each input line.  
@@ -29,6 +30,7 @@
 ---
 
 ## 🧮 Chapter 2: Types, Operators, and Expressions (10 Exercises)
+
 [ ] 2-1: Determine ranges of basic types.  
 [ ] 2-2: Rewrite for-loop without && or ||.  
 [ ] 2-3: htoi(s): convert hex string to int.  
@@ -43,6 +45,7 @@
 ---
 
 ## 🌀 Chapter 3: Control Flow (6 Exercises)
+
 [ ] 3-1: Rewrite binary search with one test.  
 [ ] 3-2: escape(s,t) and reverse escape.  
 [ ] 3-3: expand(s1,s2): expand shorthand notations like a-z.  
@@ -53,6 +56,7 @@
 ---
 
 ## 🧭 Chapter 4: Functions and Program Structure (14 Exercises)
+
 [ ] 4-1: strrindex(s,t): rightmost occurrence.  
 [ ] 4-2: Extend atof for scientific notation.  
 [ ] 4-3: Extend RPN calculator for %, negatives.  
@@ -71,6 +75,7 @@
 ---
 
 ## 🧭 Chapter 5: Pointers and Arrays (20 Exercises)
+
 [ ] 5-1: Fix getint to push back sign correctly.  
 [ ] 5-2: Write getfloat.  
 [ ] 5-3: Pointer version of strcat.  
@@ -95,6 +100,7 @@
 ---
 
 ## 🧱 Chapter 6: Structures (6 Exercises)
+
 [ ] 6-1: Improve getword (underscores, strings, comments, preproc).  
 [ ] 6-2: Print groups of variable names identical in first K chars.  
 [ ] 6-3: Cross-referencer: word list with line numbers.  
@@ -105,6 +111,7 @@
 ---
 
 ## 🖨️ Chapter 7: Input and Output (9 Exercises)
+
 [ ] 7-1: Case conversion depending on argv[0].  
 [ ] 7-2: Print arbitrary input sensibly (non-graphic → octal/hex).  
 [ ] 7-3: Improve minprintf.  
@@ -118,9 +125,10 @@
 ---
 
 ## 🧰 Chapter 8: The UNIX System Interface (8 Exercises)
+
 [ ] 8-1: Rewrite cat using read/write/open/close.  
-[ ] 8-2: Rewrite fopen and _fillbuf with fields.  
-[ ] 8-3: Implement _flushbuf, fflush, fclose.  
+[ ] 8-2: Rewrite fopen and \_fillbuf with fields.  
+[ ] 8-3: Implement \_flushbuf, fflush, fclose.  
 [ ] 8-4: Implement fseek like lseek.  
 [ ] 8-5: Print full file info using stat.  
 [ ] 8-6: calloc(n,size): zero-initialized malloc.  

@@ -1,35 +1,30 @@
 #include <stdio.h>
 
-// 1. FUNCTION PROTOTYPE: Tells the compiler the function exists, 
-//    what type it returns (float), and what type it takes (float).
-float fahr_to_celsius(float fahr);
+#define lower 0
+#define upper 300
+#define step 20
 
-int main(void)
-{
-    float fahr;
-    int lower, upper, step;
 
-    lower = 0;    // lower limit of temperature scale
-    upper = 300;  // upper limit
-    step = 20;    // step size
+float fahr_to_celcius(float fahr){
 
-    fahr = lower;
-    printf("Fahrenheit  Celsius\n");
-    printf("-------------------\n");
-
-    while (fahr <= upper) {
-        // CALL THE FUNCTION: The calculation is now done in fahr_to_celsius()
-        printf("%10.0f %9.1f\n", fahr, fahr_to_celsius(fahr));
-        fahr = fahr + step;
-    }
-
-    return 0;
+    float res = (fahr - 32.0) * (5.0 / 9.0);
+    return res;
 }
 
-// 2. FUNCTION DEFINITION: Contains the logic to perform the conversion.
-/* fahr_to_celsius: convert Fahrenheit to Celsius */
-float fahr_to_celsius(float fahr)
-{
-    // C = (5.0 / 9.0) * (F - 32)
-    return (5.0 / 9.0) * (fahr - 32.0);
+int main(){
+
+    float fahr;
+
+    fahr = lower;
+    printf("Fahr\tCelsius\n");
+    printf("------------------\n");
+
+    while (fahr <= upper)
+    {
+        /* code */
+        printf("%10.0f %9.2f\n", fahr, fahr_to_celcius(fahr));
+        fahr = fahr + step;
+    }
+    
+    return 0;
 }
