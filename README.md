@@ -18,8 +18,8 @@
 [x] 1-14: Print a histogram of character frequencies.  
 [x] 1-15: Rewrite temperature conversion using a function.  
 [x] 1-16: Fix longest-line program to handle arbitrarily long lines.  
-[ ] 1-17: Print all input lines longer than 80 characters.  
-[ ] 1-18: Remove trailing blanks/tabs and delete blank lines.  
+[x] 1-17: Print all input lines longer than 80 characters.  
+[x] 1-18: Remove trailing blanks/tabs and delete blank lines.  
 [ ] 1-19: reverse(s): reverse each input line.  
 [ ] 1-20: detab: replace tabs with proper number of spaces.  
 [ ] 1-21: entab: replace spaces with minimal tabs+spaces.  
