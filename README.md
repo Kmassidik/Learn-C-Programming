@@ -22,16 +22,16 @@
 [x] 1-18: Remove trailing blanks/tabs and delete blank lines.  
 [x] 1-19: reverse(s): reverse each input line.  
 [x] 1-20: detab: replace tabs with proper number of spaces.  
-[ ] 1-21: entab: replace spaces with minimal tabs+spaces.  
-[ ] 1-22: Fold long input lines.  
-[ ] 1-23: Remove all comments from a C program.  
-[ ] 1-24: Check rudimentary syntax errors (unbalanced braces, etc.).
+[x] 1-21: entab: replace spaces with minimal tabs+spaces.  
+[x] 1-22: Fold long input lines.  
+[x] 1-23: Remove all comments from a C program.  
+[x] 1-24: Check rudimentary syntax errors (unbalanced braces, etc.).
 
 ---
 
 ## 🧮 Chapter 2: Types, Operators, and Expressions (10 Exercises)
 
-[ ] 2-1: Determine ranges of basic types.  
+[x] 2-1: Determine ranges of basic types.  
 [ ] 2-2: Rewrite for-loop without && or ||.  
 [ ] 2-3: htoi(s): convert hex string to int.  
 [ ] 2-4: squeeze(s1, s2): delete chars from s1 present in s2.  
